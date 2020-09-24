@@ -10,4 +10,8 @@ app.use(bodyParser.json());
 
 app.use("/", require("./todos/todo.controller"));
 
+app.get("/", (req, res) => {
+     return res.send("Hello world!");
+});
+
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
