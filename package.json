@@ -18,6 +18,7 @@
           "express": "^4.17.1",
           "mgr-swagger-express": "0.0.6",
           "mongoose": "^5.10.5",
+          "morgan": "^1.10.0",
           "nodemon": "^2.0.4",
           "swagger-jsdoc": "^4.0.0",
           "swagger-ui-express": "^4.1.4"
